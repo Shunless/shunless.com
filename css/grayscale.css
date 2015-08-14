@@ -218,11 +218,13 @@ a:focus {
         transform: scale(1);
     }
 }
+.about-section {
+    padding-top: 25%;
+}
 .contact-section {
     width: 100%;
-    padding: 50px 0;
+    padding-top: 25%;
     color: #000000;
-    background: rgba(233, 219, 22, 1);
     background: -moz-radial-gradient(center, ellipse cover, rgba(233, 219, 22, 1) 0%, rgba(239, 148, 1, 1) 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(233, 219, 22, 1)), color-stop(100%, rgba(239, 148, 1, 1)));
     background: -webkit-radial-gradient(center, ellipse cover, rgba(233, 219, 22, 1) 0%, rgba(239, 148, 1, 1) 100%);
@@ -259,7 +261,9 @@ a:focus {
     .contact-section {
         padding: 100px 0;
     }
-    #map {
+    .about-section {
+        padding: 100px 0;
+    }    #map {
         height: 400px;
         margin-top: 250px;
     }
@@ -465,7 +469,7 @@ body {
     -webkit-animation: a_super-rainbow 5s infinite alternate linear;
     -moz-animation: a_super-rainbow 5s infinite alternate linear;
 }
-#mc_embed_signup #mce-EMAIL{
+#mc_embed_signup #mce-EMAIL {
     background: #9f9f9f;
     width: 97%;
 }
