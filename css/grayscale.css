@@ -379,6 +379,9 @@ body {
         text-align: center;
         word-wrap: break-word;
     }
+    #devs{
+        padding-top: 25%;
+    }
 }
 
 /*Games*/
