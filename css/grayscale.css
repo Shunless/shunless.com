@@ -263,7 +263,8 @@ a:focus {
     }
     .about-section {
         padding: 100px 0;
-    }    #map {
+    }
+    #map {
         height: 400px;
         margin-top: 250px;
     }
@@ -344,6 +345,17 @@ body {
         width: 100%;
     }
 }
+#member a {
+    color: hsla(0, 0%, 100%, 0.5);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+#member a:hover,
+#member a:focus {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
 @media(min-width:768px) {
     #member {
         width: 25%;
@@ -352,23 +364,12 @@ body {
         min-width: 25%;
         height: auto;
         font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-        padding: 20px;
+        padding: 20px 0px;
         text-align: center;
         vertical-align: middle;
         display: table-cell;
         word-wrap: break-word;
         transform: translate(0px, -25%);
-    }
-    #member a {
-        color: hsla(0, 0%, 100%, 0.5);
-        -webkit-transition: all .3s ease-in-out;
-        -moz-transition: all .3s ease-in-out;
-        transition: all .3s ease-in-out;
-    }
-    #member a:hover,
-    #member a:focus {
-        text-decoration: none;
-        color: hsl(0, 0%, 100%);
     }
 }
 @media(max-width:768px) {
@@ -379,7 +380,7 @@ body {
         text-align: center;
         word-wrap: break-word;
     }
-    #devs{
+    #devs {
         padding-top: 25%;
     }
 }
