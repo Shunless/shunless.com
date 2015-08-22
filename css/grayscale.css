@@ -358,10 +358,10 @@ body {
 }
 @media(min-width:768px) {
     #member {
-        width: 25%;
+        width: 33.33%;
         position: relative;
-        max-width: 25%;
-        min-width: 25%;
+        max-width: 33.33%;
+        min-width: 33.33%;
         height: auto;
         font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
         padding: 20px 0px;
@@ -462,6 +462,9 @@ body {
 #skipstack .skipstack-section {
     display: table-cell;
     vertical-align: middle;
+}
+.skipstack-section a #desktop {
+    color: #5659a8;
 }
 .skipstack-section a {
     -webkit-animation: a_super-rainbow 15s infinite alternate linear;
