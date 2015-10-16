@@ -466,6 +466,13 @@ body {
 .skipstack-section a #desktop {
     color: #5659a8;
 }
+.skipstack-section a #source {
+    color: #989898;
+}
+.skipstack-section a:hover #source ,
+.skipstack-section a:focus #source  {
+    color: #000000;
+}
 .skipstack-section a {
     -webkit-animation: a_super-rainbow 15s infinite alternate linear;
     -moz-animation: a_super-rainbow 15s infinite alternate linear;
